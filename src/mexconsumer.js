@@ -150,7 +150,7 @@ async function shutdown(){
         await db.end();
         logger.debug("STOPPED DATABASE");
     }catch(e){
-        logger.error("Error closing connection: ",e);
+        logger.error("error closing connection: ", e.message);
         process.exit(1);
     }
 }
