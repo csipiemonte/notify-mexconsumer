@@ -2,7 +2,7 @@
   "name": "mex_consumer",
   "version": "1.0.0",
   "description": "consumer of the queue the contains messages to be processed and inserted on database",
-  "main": "index.js",
+  "main": "mexconsumer.js",
   "scripts": {
     "start": "cd src && node mexconsumer.js"
   },
